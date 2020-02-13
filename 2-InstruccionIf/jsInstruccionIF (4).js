@@ -4,9 +4,10 @@ function mostrar()
 var edad;
 edad = document.getElementById("edad").value;
 
-if (if (edad >= 13 && edad <= 17) {
-//(13 <= edad && edad <= 17)   
-//Operador lógico "&&" ampersand   
+if (if (edad > 12 && edad < 18) { 
+//(!(edad < 12 || edad > 18))
+//Operador lógico "&&" AND/ampersand   
+//Operador lógico "||" OR/barra vertical    
     alert("Persona adolescente");
     }
 }//FIN DE LA FUNCIÓN
